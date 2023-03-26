@@ -22,11 +22,12 @@ const Home = () => {
 
   return (
     <Container>
-      <Header title={"Studen"} />
+      <Header title={"Studen"} plus={true} />
       <View style={{ flex: 1, backgroundColor: "white", padding: 10 }}>
         <FlatList
           data={data}
           keyExtractor={(item) => item.id}
+          showsVerticalScrollIndicator={false}
           renderItem={({ item }) => <ListStudents item={item} />}
         />
       </View>
