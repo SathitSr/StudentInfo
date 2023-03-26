@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "studenInfo",
-    "slug": "studenInfo",
+    "name": "studentInfo",
+    "slug": "studentInfo",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
